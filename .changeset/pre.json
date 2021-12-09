@@ -6,5 +6,8 @@
     "@saihaj/testing-changesets-baz": "1.0.0",
     "@saihaj/testing-changesets-foo": "1.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "grumpy-swans-itch",
+    "seven-emus-judge"
+  ]
 }
