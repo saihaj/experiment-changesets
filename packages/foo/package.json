@@ -1,6 +1,6 @@
 {
   "name": "@saihaj/testing-changesets-foo",
-  "version": "1.0.0",
+  "version": "1.1.0-alpha.0",
   "description": "",
   "scripts": {
     "prepack": "bob prepack"
@@ -36,6 +36,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@saihaj/testing-changesets-baz": "^1.0.0"
+    "@saihaj/testing-changesets-baz": "^2.0.0-alpha.0"
   }
 }
