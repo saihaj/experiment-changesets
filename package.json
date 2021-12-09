@@ -2,7 +2,9 @@
   "private": "true",
   "scripts": {
     "format": "prettier . --write",
-    "build": "tsc --project tsconfig.json && bob build"
+    "build": "tsc --project tsconfig.json && bob build",
+    "prerelease": "npm run build",
+    "release": "changeset publish"
   },
   "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
   "license": "MIT",
@@ -10,6 +12,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.18.1",
     "bob-the-bundler": "^1.5.1",
     "prettier": "^2.5.1",
     "typescript": "^4.5.2"
