@@ -1,0 +1,38 @@
+{
+  "name": "@saihaj/testing-changesets-foo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepack": "bob prepack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saihaj/experiment-changesets",
+    "directory": "packages/foo"
+  },
+  "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "buildOptions": {
+    "input": "./src/index.ts"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./*": {
+      "require": "./dist/*.js",
+      "import": "./dist/*.mjs"
+    }
+  },
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
+  "publishConfig": {
+    "directory": "dist",
+    "access": "public"
+  }
+}
