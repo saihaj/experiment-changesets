@@ -2,7 +2,7 @@
   "private": "true",
   "scripts": {
     "format": "prettier . --write",
-    "build": "tsc --project tsconfig.json && bob build",
+    "build": "tsc --project tsconfig.build.json && bob build",
     "prerelease": "npm run build",
     "release": "changeset publish"
   },
