@@ -36,6 +36,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@saihaj/testing-changesets-baz": "^2.0.0"
+    "@saihaj/testing-changesets-baz": "^2.0.0",
+    "@saihaj/testing-changesets-foo": "1.1.0"
   }
 }
