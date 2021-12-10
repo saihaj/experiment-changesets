@@ -6,5 +6,7 @@
     "@saihaj/testing-changesets-baz": "2.0.0",
     "@saihaj/testing-changesets-foo": "1.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "poor-buttons-bow"
+  ]
 }
