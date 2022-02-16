@@ -1,5 +1,12 @@
 # @saihaj/testing-changesets-bar
 
+## 1.0.1-beta.0
+
+### Patch Changes
+
+- Updated dependencies [ed86e3b]
+  - @saihaj/testing-changesets-foo@1.1.1-beta.0
+
 ## 2.0.0-alpha.1
 
 ### Minor Changes

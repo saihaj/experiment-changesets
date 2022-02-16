@@ -6,5 +6,9 @@
     "@saihaj/testing-changesets-baz": "2.0.0",
     "@saihaj/testing-changesets-foo": "1.1.0"
   },
-  "changesets": ["poor-buttons-bow", "spicy-kangaroos-battle"]
+  "changesets": [
+    "poor-buttons-bow",
+    "spicy-kangaroos-battle",
+    "tame-rats-carry"
+  ]
 }
