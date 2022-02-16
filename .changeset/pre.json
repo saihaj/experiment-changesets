@@ -1,13 +1,10 @@
 {
   "mode": "pre",
-  "tag": "alpha",
+  "tag": "beta",
   "initialVersions": {
     "@saihaj/testing-changesets-bar": "1.0.0",
     "@saihaj/testing-changesets-baz": "2.0.0",
     "@saihaj/testing-changesets-foo": "1.1.0"
   },
-  "changesets": [
-    "poor-buttons-bow",
-    "spicy-kangaroos-battle"
-  ]
+  "changesets": ["poor-buttons-bow", "spicy-kangaroos-battle"]
 }
