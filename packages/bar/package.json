@@ -1,6 +1,6 @@
 {
   "name": "@saihaj/testing-changesets-bar",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "",
   "scripts": {
     "prepack": "bob prepack"
@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@saihaj/testing-changesets-baz": "^2.0.0",
-    "@saihaj/testing-changesets-foo": "1.1.0"
+    "@saihaj/testing-changesets-foo": "1.1.1-beta.0"
   }
 }

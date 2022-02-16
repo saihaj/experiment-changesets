@@ -1,5 +1,11 @@
 # @saihaj/testing-changesets-foo
 
+## 1.1.1-beta.0
+
+### Patch Changes
+
+- ed86e3b: some fixes for real
+
 ## 1.1.0
 
 ### Minor Changes
